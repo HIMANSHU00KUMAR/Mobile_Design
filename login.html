@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="flex flex-col px-4 pt-4 pb-8 rounded-xl bg-zinc-50 max-w-[375px]">
+        <a href="createaccount.html"><img src="dist/assets/chevron-left.png" class="w-8 absolute left-2" /></a>
+        <h1 class="mt-11 text-xl font-semibold text-zinc-800">Welcome Back</h1>
+        <form>
+          <label for="email" class="sr-only">Email</label>
+          <input type="email" id="email" placeholder="Email" class="justify-center items-start px-5 py-5 mt-12 text-xs font-semibold whitespace-nowrap rounded-xl bg-zinc-100 text-zinc-500 w-full" />
+          <label for="password" class="sr-only">Password</label>
+          <div class="flex gap-5 justify-between px-5 py-4 mt-6 text-xs font-semibold whitespace-nowrap rounded-xl bg-zinc-100 text-zinc-500">
+            <input type="password" id="password" placeholder="Password" class="my-auto bg-transparent outline-none w-full" />
+            <img src="dist/assets/eye-off.png" alt="Toggle password visibility" class="shrink-0 w-4 aspect-square cursor-pointer" />
+          </div>
+          <a href="#" class="mt-3.5 text-xs font-medium underline text-zinc-500">Forgot your password?</a>
+          
+            <button type="submit" class="justify-center items-center px-16 py-5 mt-24 text-base font-semibold text-white rounded-xl bg-indigo-600 hover:bg-indigo-700 w-full">
+               <a href="goal.html">Sign In</a> 
+              </button>
+           
+        </form>
+        <div class="flex gap-2.5 mt-7 text-xs font-medium whitespace-nowrap text-zinc-800">
+          <hr class="shrink-0 my-auto h-px border-0 bg-zinc-500 w-[155px]" />
+          <div class="flex-auto">Or</div>
+          <hr class="shrink-0 my-auto h-px border-0 bg-zinc-500 w-[155px]" />
+        </div>
+        <div class="flex gap-5 self-center mt-7">
+          <img src="dist/assets/flat-color-icons_google.png" alt="Sign in with Facebook" class="shrink-0 w-11 rounded-lg border border-solid aspect-square border-zinc-500 cursor-pointer" />
+          <img src="dist/assets/Vector (3).png" alt="Sign in with Google" class="shrink-0 w-11 rounded-lg border border-solid aspect-square border-zinc-500 cursor-pointer" />
+        </div>
+        <div class="self-center mt-7 text-xs font-medium text-center">
+          <span class="text-zinc-800">Don't have an account yet?</span>
+          <a href="createaccount.html" class="text-indigo-400 underline">Create an account</a>
+        </div>
+      </section>
+</body>
+</html>

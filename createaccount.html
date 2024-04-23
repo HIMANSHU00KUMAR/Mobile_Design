@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="flex flex-col px-4 pt-4 pb-8 rounded-xl bg-zinc-50 max-w-[375px]">
+      <a href="Home.html"><img src="dist/assets/chevron-left.png" class="w-8 absolute left-2" /></a>
+        <h1 class="mt-11 text-xl font-semibold text-zinc-800">Create an account</h1>
+        <form class=" text-center ">
+          <label for="firstName" class="sr-only">First Name</label>
+          <input type="text" id="firstName" placeholder="First Name" class="justify-center items-start px-16 py-5 mt-12 text-md font-semibold rounded-xl bg-zinc-100 text-zinc-500 " />
+          <label for="lastName" class="sr-only">Last Name</label>
+          <input type="text" id="lastName" placeholder="Last Name" class="justify-center items-start px-16  py-5 mt-6 text-md font-semibold rounded-xl bg-zinc-100 text-zinc-500" />
+          <label for="email" class="sr-only">Email</label>
+          <input type="email" id="email" placeholder="Email" class="justify-center items-start px-16 py-5 mt-6 text-md font-semibold whitespace-nowrap rounded-xl bg-zinc-100 text-zinc-500" />
+          <label for="password" class="sr-only">Password</label>
+          <input type="password" id="password" placeholder="Password" class="justify-center items-start px-16 py-5 mt-6 text-md font-semibold whitespace-nowrap rounded-xl bg-zinc-100 text-zinc-500" />
+          <div class="flex gap-2 mt-6">
+            <div class="flex flex-col justify-center">
+              <div class="shrink-0 rounded border border-solid border-zinc-500 h-[22px]" role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="terms-label"></div>
+            </div>
+            <p class="flex-auto my-auto text-xs font-semibold leading-5 text-indigo-300 underline" id="terms-label">
+              <span class="font-medium">By proceeding, I agree to all</span>
+              <a href="#" class="font-medium text-indigo-300 underline">T&C</a>
+              <span class="font-medium">and</span>
+              <a href="#" class="font-medium text-indigo-300 underline">Privacy Policy</a>
+            </p>
+          </div>
+          <button type="submit" class="justify-center bg-gradient-to-r from-[#7B91FF] to-[#95BEFF] ...  items-center px-16 py-5 mt-16 text-base font-semibold text-center text-white rounded-xl">Create an Account</button>
+        </form>
+        <div class="flex gap-2.5 mt-7 text-xs font-medium whitespace-nowrap text-zinc-800">
+          <hr class="shrink-0 my-auto h-px border border-solid bg-zinc-500 border-zinc-500 w-[155px]" />
+          <span class="flex-auto">Or</span>
+        </div>
+        <div class="flex gap-5 self-center mt-7">
+          <img src="dist/assets/flat-color-icons_google.png" alt="Google logo" class="shrink-0 w-11 rounded-lg border border-solid aspect-square border-zinc-500" />
+          <img src="dist/assets/Vector (3).png" alt="Facebook logo" class="shrink-0 w-11  rounded-lg border border-solid aspect-square border-zinc-500" />
+        </div>
+        <p class="self-center mt-7 text-xs font-medium text-indigo-400 underline">
+          <span>Already have an account?</span>
+          <a href="login.html" class="text-indigo-400 underline">Login</a>
+        </p>
+      </section>
+</body>
+</html>
